@@ -11,7 +11,7 @@ def log_in(usuarios):
     return False
 
 def main():
-    usuarios, list_gatos = leitura_dados.ler_dados()
+    usuarios, list_gatos = leitura_dados.ler_deados()
     
     if not log_in(usuarios):
         print("Usuário ou senha incorretos.")
